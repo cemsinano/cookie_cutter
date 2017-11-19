@@ -3,6 +3,7 @@
 echo "Hi! What is your name?"
 read project_owner   # get project name information from the user
 echo "Enter your project name:"
+echo "Don't leave a white space in your project name!!"
 read project_name    # get project name information from the user
 mkdir $project_name  # create the main project folder where the cookie_cutter.sh is
 cd $project_name     # go into the main project folder
@@ -33,4 +34,5 @@ mkdir src
 mkdir from_joe
 
 echo "Thank you $project_owner!"
-echo "$project_name project is succesfully created."
+echo "Project $project_name is succesfully created."
+echo "Good luck!"

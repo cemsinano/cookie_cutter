@@ -42,6 +42,6 @@ Initially, README.md will have the information of project name, project owner an
 
 Now, you are ready to go! :)
 
-**Author:** Cem Sinan Ozturk
+## Author
 
-**Date Created:** November 17, 2017
+This repository is created by Cem Sinan Ozturk on November 18, 2017.
