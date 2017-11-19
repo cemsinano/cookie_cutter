@@ -32,7 +32,8 @@ Running the bash script in this repository will generate a new directory where y
     │   ├── figures        # figures and plots
     │   └── tables         # tables
     ├── src/           # source code
-    ├── from_joe/      # other important things for project
+    ├── bin/           # compiled scripts
+    └── from_joe/      # other important things for project        
 
 LICENSE, CITATION, README markdown files are created in the root directory.
 

@@ -8,6 +8,8 @@ read project_name    # get project name information from the user
 mkdir $project_name  # create the main project folder where the cookie_cutter.sh is
 cd $project_name     # go into the main project folder
 
+# create README, LICENSE and CITATION markdown files into root directory
+
 touch README.md      #initialize a README markdown file with project_name,project_owner and date created
 echo "Project: $project_name
 Created by: $project_owner
@@ -31,6 +33,7 @@ mkdir results
 mkdir results/figures
 mkdir results/tables
 mkdir src
+mkdir bin
 mkdir from_joe
 
 echo "Thank you $project_owner!"
